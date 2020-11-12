@@ -33,4 +33,17 @@ with Jinja.
 - Icons from Font Awesome.
 - Background pictures from private picture collection.
 
-### Backend
+#### Backend
+Python Flask web server handles:
+- All html routes
+- Conditional logic
+- Custom Python functions:
+    - User management in combination with SQL database
+    - User input debugging and formatting
+    - Search algorithm in German/English, iso2 or iso3 country code
+    - One click links to external pages with direct entrance
+    - API backed live widgets
+    - SQL database backed widgets
+    - User search history stored in SQL database
+
+- SQL database connection to store user data, search algorithm and data library
