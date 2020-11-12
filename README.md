@@ -27,3 +27,10 @@ search function works in German and English with language specific travel links.
 Flask web server with HTML/CSS frontend, SQL database and custom Python functions.
 
 #### Frontend
+- HTML pages with Bootstrap powered styling and own customization in CSS.
+- Conditional logic for a smart and flexible HTML to adapt on existing content
+with Jinja.
+- Icons from Font Awesome.
+- Background pictures from private picture collection.
+
+### Backend
