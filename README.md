@@ -1,5 +1,5 @@
 # Travel Cockpit
-CS50 final project ->> All that we ask is that you build something of interest to you, that you solve an actual problem, that you impact your community, or that you change the world. Strive to create something that outlives this course.
+CS50 final project \rightarrow All that we ask is that you build something of interest to you, that you solve an actual problem, that you impact your community, or that you change the world. Strive to create something that outlives this course.
 
 ## Purpose
 As passionate travelers my wife and me were continuously looking for a central
