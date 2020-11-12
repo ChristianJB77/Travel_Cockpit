@@ -47,3 +47,6 @@ Python Flask web server handles:
     - User search history stored in SQL database
 
 - SQL database connection to store user data, search algorithm and data library
+
+
+Concept & Copyrights by Christian Johann Bayerle
