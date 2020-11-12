@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Index
+{% endblock %}
+
+{% block main %}
+    <!-- Error message -->
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <!--Travel links for user submitted travel destination COUNTRY-->
+    <h2 class='h2'>Your Destination | Dein Reiseziel?</h2>
+    <form action="/" method="post">
+        <div class="form-row align-items-center center_div">
+            <div class="col-sm-8 my-1">
+                <input autocomplete="off" autofocus class="form-control"
+                name="destination" placeholder="Country or City" type="text">
+            </div>
+            <div class="col-auto my-1">
+                <button class="btn btn-primary" type="submit">GO</button>
+            </div>
+        </div>
+    </form>
+    <br><br><br><br>
+    <!-- Travel location idea for warm weather this month -->
+    <h2 class='h2'>Jetzt ins Warme?</h2>
+    <a class="form-row center_div align-items-center"
+        href="{{ go_warm }}" target="_blank">
+        <img class="index_img" src="static/warm_weather.jpg" alt="warm_weather"
+            loading="lazy">
+    </a>
+
+{% endblock %}

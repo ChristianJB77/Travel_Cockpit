@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <div class="container">
+        <table class="table table-hover" style="background-color: white">
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Number of searches</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                    <tr>
+                        <td>{{ row["destination"].title() }}</td>
+                        <td>{{ row["COUNT(id)"] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <br><br>
+{% endblock %}
