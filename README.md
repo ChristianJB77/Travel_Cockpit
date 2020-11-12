@@ -22,3 +22,8 @@ information in one view or one click away.
 This Web (HTML) based dashboard, which works on a Smart TV, Desktop and mobile
 device focuses the European and especially German traveler. Therefore the dashboard
 search function works in German and English with language specific travel links.
+
+### Functionality
+Flask web server with HTML/CSS frontend, SQL database and custom Python functions.
+
+#### Frontend
